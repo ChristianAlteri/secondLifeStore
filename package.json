@@ -1,0 +1,41 @@
+{
+  "name": "thegrandexchange",
+  "version": "1.0.0",
+  "description": "### Project Description: eCommerceX - Empowering Online Clothing Sales",
+  "main": "index.js",
+  "engines": {
+    "node": "18.17.1"
+  },
+  "scripts": {
+    "start": "node server/server.js",
+    "develop": "concurrently \"cd server && npm run watch\" \"cd client && npm start\"",
+    "install": "cd server && npm i && cd ../client && npm i",
+    "seed": "cd server && npm run seed",
+    "build": "cd client && npm run build"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^8.2.0",
+    "react-scripts": "^5.0.1"
+  },
+  "dependencies": {
+    "@apollo/client": "^3.8.1",
+    "@cloudinary/react": "^1.11.2",
+    "@cloudinary/url-gen": "^1.11.2",
+    "@stripe/stripe-js": "^2.1.0",
+    "apollo-server": "^3.12.0",
+    "apollo-server-express": "^3.12.0",
+    "autoprefixer": "^10.4.15",
+    "bcryptjs": "^2.4.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.1",
+    "mongoose": "^7.4.4",
+    "path-browserify": "^1.0.1",
+    "postcss": "^8.4.28",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.10.1",
+    "react-router-dom": "^6.15.0",
+    "url": "^0.11.1"
+  }
+}

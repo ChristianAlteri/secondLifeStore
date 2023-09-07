@@ -1,0 +1,34 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "engines": {
+    "node": "18.17.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "seed": "node seeds/seed.js",
+    "watch": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@apollo/server": "^4.9.2",
+    "apollo-server-express": "^3.12.0",
+    "bcrypt": "^5.1.1",
+    "cloudinary": "^1.40.0",
+    "cloudinary-core": "^2.13.0",
+    "dayjs": "^1.11.9",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "graphql": "^16.8.0",
+    "graphql-upload": "^16.0.2",
+    "jsonwebtoken": "^9.0.1",
+    "mongoose": "^7.4.5",
+    "nodemon": "^3.0.1",
+    "store": "^2.0.12",
+    "stripe": "^13.4.0"
+  }
+}

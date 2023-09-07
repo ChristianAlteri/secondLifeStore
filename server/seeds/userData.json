@@ -1,0 +1,36 @@
+[
+    {
+      "firstName": "Vivienne",
+      "lastName": "Westwood",
+      "userName": "vwestwood",
+      "email": "vivienne@example.com",
+      "password": "westwoodpass",
+      "location": "London",
+      "dateOfBirth": "1941-04-08",
+      "products": [],
+      "orders": []
+    },
+    {
+      "firstName": "Rei",
+      "lastName": "Kawakubo",
+      "userName": "rkawakubo",
+      "email": "rei@example.com",
+      "password": "kawakubopass",
+      "location": "Tokyo",
+      "dateOfBirth": "1941-04-08",
+      "products": [],
+      "orders": []
+    },
+    {
+      "firstName": "Alexander",
+      "lastName": "McQueen",
+      "userName": "amcqueen",
+      "email": "alexander@example.com",
+      "password": "mcqueenpass",
+      "location": "London",
+      "dateOfBirth": "1941-04-08",
+      "products": [],
+      "orders": []
+    }
+  ]
+  
